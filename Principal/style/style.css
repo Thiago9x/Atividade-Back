@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient( #3f87a6 , black);
+}
+
+/* Cabeçalho */
+header{
+    height: 46px;
+    width: 100%;
+    background-color:white;
+}
+
+
+#icone{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 4px;
+    border: solid 1px white;
+    float: left;
+    padding-top: 6px;
+}
+.hamburguer{
+    background-color: black;
+    height: 7px;
+    border-radius: 4px;
+    width: 33px;
+    display: block;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+#caixaMenu{
+    background-color: white;
+    height: 160px;
+    width: 150px;
+    /* display: none; */
+    text-align: center;
+    opacity: 0;
+    visibility: hidden; 
+    margin-top: 0px;
+    /* border-radius: 10px; */
+}
+#icone:hover {
+    cursor: pointer;
+}
+#icone:hover > #caixaMenu{
+    /* display: block; */
+    opacity: 1;
+    visibility: visible;
+    transition: 1s;
+}
+
+.menuItem{
+    height: 30px;
+    width: inherit;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5em;
+    list-style: none;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#titulo{
+    width: 900px;
+    /* border: solid 1px black; */
+    height:45px;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Conteúdio */
+#subtitulo{
+    width: 900px;
+    /* border: solid 1px black; */
+    height:45px;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 4px;
+    font-family: Verdana;
+    font-weight: bold;  
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+#tabela{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+h2{
+    font-family: Verdana;
+    font-size: 1.5em;
+    margin-top: 10px;
+    
+}
+a{
+    color: black;
+    font-style: none;
+    text-decoration: none;
+}
